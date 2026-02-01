@@ -83,4 +83,13 @@ document.addEventListener('DOMContentLoaded', function() {
         el.style.transition = 'opacity 0.6s ease, transform 0.6s ease';
         observer.observe(el);
     });
+
+    // Handle App Store button click
+    const appStoreBtn = document.getElementById('app-store-btn');
+    if (appStoreBtn) {
+        appStoreBtn.addEventListener('click', function(e) {
+            e.preventDefault();
+            alert('The PlantCare Companion AI app is not available on the App Store yet. Please download it from Google Play Store.');
+        });
+    }
 });
