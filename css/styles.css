@@ -433,6 +433,10 @@ body {
     text-decoration: underline;
 }
 
+.disabled {
+  pointer-events: none;
+}
+
 @media (max-width: 968px) {
     .nav-menu {
         position: fixed;
@@ -511,6 +515,7 @@ body {
         font-size: 24px;
     }
 }
+
 
 
 
